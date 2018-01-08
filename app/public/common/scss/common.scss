@@ -1,0 +1,41 @@
+$aColors : #484848 #00b598;
+$mainColor : #00b598;
+$mainWidth : 1183px;
+$priceColor:#ff0000;
+$vipColor:#f5a623;
+.f-left{
+    float: left;
+}
+.f-right{
+    float: right;
+}
+.text-left{
+    text-align: left;
+}
+.text-right{
+    text-align: right;
+}
+.text-conter{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color:#000;
+}
+a:active{
+    color:#000;
+}
+a:link{
+    color:#000;
+}
+a:hover{
+    color:#484848;
+}
+.textRed{
+    color:$priceColor;
+}
+.gesture{
+    cursor: pointer;
+}

@@ -1,0 +1,17 @@
+一定要按流程
+
+看状态 		git status
+
+本地缓存	git add .
+
+本地仓库	git commit -am"描述"
+
+拉取线上仓库代码  git fetch
+
+
+本地与在线代码的缓存和一起 	git rebase origin/master
+
+和一起有冲突 找到冲突文件然后对比或询问，解决完然后 add .在git rebase --continue
+
+完全没问题了   git push origin master
+
